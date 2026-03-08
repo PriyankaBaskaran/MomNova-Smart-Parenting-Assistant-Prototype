@@ -300,7 +300,7 @@ Frontend will be available at: `http://localhost:3000`
 | POST | `/api/v1/advice/daily` | Generate personalized daily advice |
 | POST | `/api/v1/advice/assessment` | Get advice with mental health assessment |
 
-**Full API Documentation:** [Swagger UI](https://localhost:5001/swagger) when running locally
+**Full API Documentation:** [Swagger UI](https://y3vmpncgmc.ap-south-1.awsapprunner.com/swagger/index.html) when running locally
 
 ---
 
