@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartParentingAssistant.Application\SmartParentingAssistant.Application.csproj" />
+    <ProjectReference Include="..\SmartParentingAssistant.Domain\SmartParentingAssistant.Domain.csproj" />
+    <ProjectReference Include="..\SmartParentingAssistant.Shared\SmartParentingAssistant.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.2" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.67.1" />
+    <PackageReference Include="Microsoft.SemanticKernel.Prompty" Version="1.67.1-beta" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.0" />
+    <PackageReference Include="AWSSDK.BedrockRuntime" Version="3.7.400" />
+    <PackageReference Include="AWSSDK.Comprehend" Version="3.7.400" />
+    <PackageReference Include="AWSSDK.CognitoIdentityProvider" Version="3.7.400" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.400" />
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.301" />
+    <PackageReference Include="Amazon.Extensions.CognitoAuthentication" Version="2.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Prompts\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="Prompts\**\*.prompty">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);SKEXP0110;SKEXP0001;SKEXP0002;SKEXP0003;SKEXP0040;SKEXP0070;SKEXP0010</NoWarn>
+  </PropertyGroup>
+
+</Project>
