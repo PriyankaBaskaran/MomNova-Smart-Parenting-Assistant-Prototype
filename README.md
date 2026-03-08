@@ -375,8 +375,6 @@ Use the provided test script:
 .\test-journal-entries.ps1
 ```
 
-See [JOURNAL-TEST-EXAMPLES.md](./docs/JOURNAL-TEST-EXAMPLES.md) for sample data.
-
 ---
 
 ## 🚢 Deployment
@@ -395,8 +393,6 @@ docker run -p 8080:8080 \
 ```
 
 ### AWS App Runner Deployment
-
-See [DEPLOYMENT-GUIDE.md](./docs/DEPLOYMENT-GUIDE.md) for complete instructions.
 
 **Quick Deploy:**
 ```powershell
@@ -500,8 +496,9 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 Built with ❤️ for new parents everywhere
 
-- **Developer**: [Your Name](https://github.com/yourusername)
-- **Hackathon**: AWS AI for Bharat 2024
+- **Developer**: [Priyanga](https://github.com/PriyankaBaskaran)
+- **Developer**: [Chandran](https://github.com/PriyankaBaskaran)
+
 
 ---
 
