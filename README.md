@@ -9,9 +9,7 @@
 
 **AI-powered parenting companion with sentiment analysis, mood tracking, and culturally-aware guidance**
 
-Built for **AWS AI for Bharat Hackathon** 🇮🇳
-
-[Live Demo](https://master.d24lg24gqtj5pf.amplifyapp.com/) • [Documentation](.Backend/.kiro/specs/aws-ai-integration) • [API Docs](https://y3vmpncgmc.ap-south-1.awsapprunner.com/swagger/index.html)
+[Live Demo](https://master.d24lg24gqtj5pf.amplifyapp.com/)  • [API Docs](https://y3vmpncgmc.ap-south-1.awsapprunner.com/swagger/index.html)
 
 </div>
 
