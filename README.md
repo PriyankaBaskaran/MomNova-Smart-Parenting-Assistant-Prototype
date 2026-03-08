@@ -196,11 +196,6 @@ cd smart-parenting-assistant
 
 ### 2️⃣ AWS Setup
 
-**New to AWS?** Follow our beginner-friendly guides:
-- 📋 [AWS Setup Guide](./docs/AWS-SETUP-GUIDE.md) - Complete walkthrough
-- 🔐 [Cognito Setup Guide](./docs/COGNITO-SETUP-GUIDE.md) - Authentication setup
-- 📝 [AWS Values Needed](./docs/AWS-VALUES-NEEDED.md) - Quick reference
-
 **Configure AWS CLI:**
 ```bash
 aws configure
@@ -219,7 +214,7 @@ cd backend
 ```
 
 **Create Cognito User Pool:**
-Follow [COGNITO-SETUP-GUIDE.md](./docs/COGNITO-SETUP-GUIDE.md) to get:
+
 - User Pool ID
 - App Client ID
 - App Client Secret
