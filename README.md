@@ -497,7 +497,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 Built with ❤️ for new parents everywhere
 
 - **Developer**: [Priyanga](https://github.com/PriyankaBaskaran)
-- **Developer**: [Chandran](https://github.com/PriyankaBaskaran)
+- **Developer**: [Chandran](https://github.com/ThreeShade))
 
 
 ---
